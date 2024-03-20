@@ -152,3 +152,9 @@ aws budgets create-budget \
 - git push
 
 Here'passwords.txt' file contains all the sensitive data that intends to be removed from the Git history.
+
+![image](https://github.com/DSBhadoria/aws-bootcamp-cruddur-2023/assets/15330248/82bdc549-3e3e-4ef6-8b9c-f41ae4ff34fe)
+
+![image](https://github.com/DSBhadoria/aws-bootcamp-cruddur-2023/assets/15330248/f39afd9e-21a0-413a-97c3-7cf28dd556d6)
+
+![image](https://github.com/DSBhadoria/aws-bootcamp-cruddur-2023/assets/15330248/56eabf20-2372-4f4b-a66f-171665e1d3e7)
