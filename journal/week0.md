@@ -136,3 +136,19 @@ aws budgets create-budget \
     --budget file://aws/json/budget.json \
     --notifications-with-subscribers file://aws/json/budget-notifications-with-subscribers.json
 ```
+
+## Removing sensitive data from a repository
+
+### Reference -
+- [docs.github.com](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository)
+- [formulae.brew.sh](https://formulae.brew.sh/formula/bfg)
+
+### Steps -
+- brew install bfg
+- git clone --mirror https://github.com/DSBhadoria/aws-bootcamp-cruddur-2023.git awsbootcamp
+- cd awsbootcamp
+- bfg --replace-text ./../passwords.txt
+- git reflog expire --expire=now --all && git gc --prune=now --aggressive
+- git push
+
+Here'passwords.txt' file contains all the sensitive data that intends to be removed from the Git history.
