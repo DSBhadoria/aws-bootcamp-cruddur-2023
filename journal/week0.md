@@ -74,7 +74,7 @@ You should see something like this:
 
 ## Enable Billing 
 
-We need to turn on Billing Alerts to recieve alerts...
+We need to turn on Billing Alerts to recieve alerts.
 
 
 - In your Root Account go to the [Billing Page](https://console.aws.amazon.com/billing/)
@@ -111,7 +111,7 @@ Check your email and confirm the subscription
 - [aws cloudwatch put-metric-alarm](https://docs.aws.amazon.com/cli/latest/reference/cloudwatch/put-metric-alarm.html)
 - [Create an Alarm via AWS CLI](https://aws.amazon.com/premiumsupport/knowledge-center/cloudwatch-estimatedcharges-alarm/)
 - We need to update the configuration json script with the TopicARN we generated earlier
-- We are just a json file because --metrics is is required for expressions and so its easier to us a JSON file.
+- We have a json file because --metrics it is required for expressions and so its easier to use a JSON file.
 
 ```sh
 aws cloudwatch put-metric-alarm --cli-input-json file://aws/json/alarm_config.json
