@@ -158,3 +158,8 @@ Here'passwords.txt' file contains all the sensitive data that intends to be remo
 ![image](https://github.com/DSBhadoria/aws-bootcamp-cruddur-2023/assets/15330248/f39afd9e-21a0-413a-97c3-7cf28dd556d6)
 
 ![image](https://github.com/DSBhadoria/aws-bootcamp-cruddur-2023/assets/15330248/56eabf20-2372-4f4b-a66f-171665e1d3e7)
+
+## Recreate Logical Architectural Deisgn
+![image](https://github.com/DSBhadoria/aws-bootcamp-cruddur-2023/assets/15330248/3a45f55d-5bb2-459c-8c78-0f5f95bb7809)
+
+Lucid Chart - https://lucid.app/lucidchart/73cbd47e-6a1c-407c-978c-534fc604876c/edit?viewport_loc=-446%2C-199%2C2750%2C1399%2C0_0&invitationId=inv_bf8f9484-3016-4eb3-b498-a6e64fa603ba
